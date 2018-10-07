@@ -16,11 +16,12 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
-    <div className="flex flex-col flex-1 md:justify-center max-w-3xl mx-auto px-4 py-8 md:p-8 w-full">
+    <div className="">
       {children()}
     </div>
     <Footer />
   </div>
+
 );
 
 TemplateWrapper.propTypes = {

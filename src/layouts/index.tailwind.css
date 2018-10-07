@@ -64,4 +64,19 @@
   .bg-purple-image {
     background-image: url("../images/header_background.png");
     background-repeat: no-repeat!important;
+    background-size: 100vw!important;
+  }
+
+  .bg-purple-footer-image {
+    background-image: url("../images/Fill3.png");
+    background-repeat: no-repeat!important;
+    background-size: 100vw!important;
+  }
+
+  .featured-item {
+    background-image: url("../images/Fill2.png");
+    background-size: 100vw;
+    background-position: bottom;
+    bottom: -250px;
+    position: relative;
   }

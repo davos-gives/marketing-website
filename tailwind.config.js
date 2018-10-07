@@ -49,7 +49,7 @@ let colors = {
   'black': '#22292f',
   'grey-darkest': '#3d4852',
   'grey-darker': '#606f7b',
-  'grey-dark': '#8795a1',
+  'grey-dark': '#5d6a77',
   'grey': '#b8c2cc',
   'grey-light': '#dae1e7',
   'grey-lighter': '#f1f5f8',
@@ -91,7 +91,7 @@ let colors = {
   'teal-darkest': '#0d3331',
   'teal-darker': '#20504f',
   'teal-dark': '#38a89d',
-  'teal': '#4dc0b5',
+  'teal': '#4db7b2',
   'teal-light': '#64d5ca',
   'teal-lighter': '#a0f0ed',
   'teal-lightest': '#e8fffe',
@@ -112,13 +112,15 @@ let colors = {
   'indigo-lighter': '#b2b7ff',
   'indigo-lightest': '#e6e8ff',
 
-  'purple-darkest': '#21183c',
+  'purple-darkest': '#330564',
   'purple-darker': '#382b5f',
-  'purple-dark': '#794acf',
+  'purple-dark': '#7813fd',
   'purple': '#9561e2',
-  'purple-light': '#a779e9',
+  'purple-light': '#9f6efe',
   'purple-lighter': '#d6bbfc',
   'purple-lightest': '#f3ebff',
+
+
 
   'pink-darkest': '#451225',
   'pink-darker': '#6f213f',

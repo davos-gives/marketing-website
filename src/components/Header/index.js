@@ -21,10 +21,10 @@ const Header = () => {
           <h1 className="capitalize mb-4">
             the new standard<br/> in online fundraising
           </h1>
-          <p className="leading-normal text-sm mb-8">
+          <p className="leading-normal text-lg mb-8">
             Davos is an easy-to-use online fundraising platform created for small and medium sized charities in Canada.
           </p>
-          <button className="bg-purple-light text-white font-bold py-2 px-3 rounded-full capitalize mt-4 mb-8">Learn more</button>
+          <button className="bg-purple-light text-white font-bold py-3 px-5 rounded-full capitalize mt-4 mb-8 focus:outline-none focus:shadow-outline">Learn more</button>
         </div>
         <div className='w-4/5'>
           <img src={header_illustration} className="relative pin-r pin-t mb-8 pb-8" />
