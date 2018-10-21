@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "gatsby-link";
 import Davos_logo from "../../images/Davos_logo.svg";
-import header_illustration from "../../images/landing_illustration-02.png"
+import header_illustration from "../../images/landing_illustration-02.png";
+import canada_flag from "../../images/maple_leaf.svg";
 
 
 const Header = () => {
@@ -23,6 +24,7 @@ const Header = () => {
           </h1>
           <p className="leading-normal text-lg mb-8">
             Davos is an easy-to-use online fundraising platform created for small and medium sized charities in Canada.
+            <img src={canada_flag} className="w-6" style={{ position: `relative`, left: "10px", top: "15px"}} />
           </p>
           <button className="bg-purple-light text-white font-bold py-3 px-5 rounded-full capitalize mt-4 mb-8 focus:outline-none focus:shadow-outline">Learn more</button>
         </div>

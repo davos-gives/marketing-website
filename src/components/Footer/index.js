@@ -4,6 +4,7 @@ import Davos_slogan from "../../images/Davos_slogan.svg";
 import Facebook from "../../images/facebook.png";
 import Twitter from "../../images/twitter.png";
 import Instagram from "../../images/instagram.png";
+import canada_flag_red from "../../images/maple_leaf-red.svg";
 
 const Footer = () => (
   <div className="bg-purple-darkest bg-purple-footer-image">
@@ -26,7 +27,7 @@ const Footer = () => (
         </div>
       <div className="w-full">
         <button className="w-full rounded-full bg-purple-light uppercase text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline tracking-wide" type="button">
-          Get early access
+          Request early access
         </button>
       </div>
       </form>
@@ -38,7 +39,8 @@ const Footer = () => (
       <div className="flex justify-between items-center max-w-3xl mx-auto p-4 md:p-8 text-sm">
         <div className="text-white leading-normal w-1/3">
           <img src={Davos_logo} className="w-32 mt-18 mb-8" />
-          <p>A proudly Canadian startup currently in a tiny room at 685 Great Northern Way, Vancouver, BC V5T 0C6</p>
+          <p>A proudly Canadian startup currently in a tiny room at 685 Great Northern Way, Vancouver, BC V5T 0C6<img src={canada_flag_red} className="w-6" style={{ position: `relative`, left: "10px", top: "10px"}} />
+</p>
         </div>
         <div className="-ml-16">
           <img src={Davos_slogan} className="w-32"/>
