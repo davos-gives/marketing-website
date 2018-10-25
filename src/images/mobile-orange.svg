@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="497px" viewBox="0 0 320 497" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M-1.63204561e-09,0.0189337833 C36.3321653,3.53630908 74.2513717,6.99789917 98.9215549,9.37807042 L292.037836,34.255412 C301.280957,35.2472297 310.603468,36.1847301 319.999969,37.067508 L320,496.857719 C310.603468,495.974938 301.280957,495.037438 292.037836,494.04562 L98.9215549,469.168279 C74.2513717,466.788107 36.3321653,463.326517 -7.10542736e-15,459.809142 L0,0.0189337834 Z" id="path-1"></path>
+    </defs>
+    <g id="Davos-Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-Copy-2" transform="translate(160.000000, 248.500000) scale(-1, 1) translate(-160.000000, -248.500000) ">
+            <g id="Rectangle">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#DD5D36" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

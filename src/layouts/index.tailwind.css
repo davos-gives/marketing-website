@@ -61,17 +61,41 @@
   * @import "utilities/skew-transforms";
   */
 
+  @media (max-width: 767px) and (min-width: 0px){
+    .human-picture {
+      top: 0px!important;
+      left: 0px!important;
+    }
+  }
+
   .bg-purple-image {
     background-image: url("../images/header_background.png");
-    background-repeat: no-repeat!important;
-    background-size: 100vw!important;
+    background-repeat: no-repeat !important;
+    background-size: 100vw !important;
+  }
+
+  @media (max-width: 767px) and (min-width: 0px){
+    .bg-purple-image {
+      background-image: url("../images/header_background.png");
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+      background-position: bottom;
+      height: 1000px;
+    }
   }
 
   .bg-purple-footer-image {
     background-image: url("../images/Fill3.png");
-    background-repeat: no-repeat!important;
-    background-size: 100vw!important;
+    background-repeat: no-repeat !important;
+    background-size: 100vw !important;
   }
+
+  @media (max-width: 767px) and (min-width: 0px){
+    .bg-purple-footer-image {
+      background-size: auto !important;
+    }
+  }
+
 
   .featured-item {
     background-image: url("../images/Fill2.png");
@@ -80,3 +104,55 @@
     bottom: -250px;
     position: relative;
   }
+
+  @media (max-width: 767px) and (min-width: 0px){
+    .featured-item {
+      background-color: #fff;
+      bottom: 0px;
+      background-image: none;
+    }
+
+    .pull-up {
+      top: -290px!important;
+      position: relative!important;
+    }
+
+    .static-height-desktop {
+      height: 3170px;
+    }
+  }
+
+  .mobile-teal {
+    background-image: url("../images/mobile-teal.svg");
+    background-size: cover;
+    height: 550px;
+  }
+
+
+  .mobile-orange {
+    background-image: url("../images/mobile-orange.svg");
+    background-size: cover;
+    height: 550px;
+  }
+
+  .mobile-yellow {
+    background-image: url("../images/mobile-yellow.svg");
+    background-size: cover;
+    height: 550px;
+  }
+
+  @media (min-width: 800px){
+  .easy-peasy {
+    position: relative;
+    top: -350px;
+    left: 350px;
+  }
+
+  .top-wrapper {
+    height: 510px;
+  }
+
+  .footer-padded {
+    padding-top: 250px;
+  }
+}

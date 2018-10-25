@@ -35,7 +35,8 @@ class InfoSection extends Component {
   render() {
     if(this.state.featuredItem === 'design'){
       return (
-        <div className="flex flex-col flex-1 md:justify-center max-w-3xl mx-auto px-4 py-8 md:p-8 w-full">
+        <div className="static-height-desktop">
+        <div className="flex flex-col flex-1 md:justify-center max-w-3xl mx-auto px-4 py-8 md:p-8 w-full sm:hidden">
           <div className="flex" style={{ marginTop: "-260px"}}>
             <div className="w-1/3 mt-8 shadow-lg rounded-lg bg-white" style={{height: "80%"}}>
               <div className="my-8" style={{ height: "250px"}}>
@@ -68,12 +69,62 @@ class InfoSection extends Component {
             </div>
             </div>
           </div>
+
+          <div className="flex flex-col flex-1 md:justify-center mx-auto px-4 py-8 md:p-8 w-full lg:hidden mt-8">
+            <div className="lg:hidden">
+                <img src={laptop} className="mt-18 mb-8 relative donor-profile-laptop" style={{ height: "350px", maxWidth: "500px", left: "40"}} />
+                <img src={IllustrationBuilder} className="w-48 mt-18 mb-8 relative donor-profile-illustration" style={{ top: `-160px`, left: "0px"}}/>
+                <div className="my-8">
+                  <p className="text-purple-light text-xl w-3/4 mx-4 leading-normal relative text-right float-right" style={{ top: `-200px`}}>"No more countless hours trying to set up a donation form that looks like our website!"</p>
+                </div>
+              </div>
+            </div>
+            <div className="text-white mobile-teal px-8 mx-auto py-12 text-center relative  lg:hidden" style={{top: "-160px"}}>
+              <h3 className="capitalize pt-8">Donation campaign builder</h3>
+              <p className="mb-4 mt-4 leading-loose text-lg">Quickly design your campaign using our modern templates. Decide on the fonts, colour, images, content and gift ranges that best suit your needs.
+              </p>
+              <p className="mb-4 mt-4 leading-loose text-lg">Want to personalize even further or create your own template? You are always in control with our advanced settings.</p>
+            </div>
+
+            <div className="flex flex-col flex-1 md:justify-center mx-auto px-4 py-8 md:p-8 w-full lg:hidden mt-8 relative">
+              <div className="lg:hidden">
+                  <img src={StatsLaptop} className="mt-18 mb-8 absolute donor-profile-laptop" style={{ top: `-250px`, height: "350px", maxWidth: "500px", left: "0px"}}/>
+                    <img src={StatsScreen2} className="mt-18 mb-8 absolute donor-profile-laptop" style={{ top: `30px`, height: "200px", maxWidth: "500px", left: "75"}}/>
+                  <img src={IllustrationDashboard} className="w-48 mt-18 mb-8 relative donor-profile-illustration" style={{ top: `130px`, left: "80px"}}/>
+                  <div className="mt-8 pt-1 text-center mx-auto w-3/4">
+                    <p className="text-purple-light text-xl mx-4 leading-normal relative text-center mt-12 pt-12">"The beauty of it is that's all in one place!"</p>
+                  </div>
+                </div>
+              </div>
+              <div className="text-white mobile-orange px-8 mx-auto py-12 text-center relative lg:hidden" style={{}}>
+                <h3 className="capitalize mt-8">Charity Dashboard</h3>
+                <p className="mb-4 mt-4 leading-loose text-lg">Get a clear understanding of how your campaigns perform and why they do so. Your dashboard is a quick snapshot of your total Funds raised and where the support is coming from - filterable by year or month.
+                </p>
+                <p className="mb-4 mt-4 leading-loose text-lg pb-8">All in one place. Straightforward and updated in real time.</p>
+              </div>
+              <div className="flex flex-col flex-1 md:justify-center mx-auto px-4 py-8 md:p-8 w-full lg:hidden mt-8 relative">
+                <div className="" style={{height: "450"}}>
+                    <img src={DonorLaptop} className="mt-18 mb-8 relative donor-profile-laptop" style={{ top: `-120px`, height: "350px", maxWidth: "500px", left: "-10px"}}/>
+
+                <img src={IllustrationProfile} className="w-48 mt-18 mb-8 relative donor-profile-illustration" style={{ top: `-225px`, left: "55px"}}/>
+                    <div className="float-right w-3/4 pull-up">
+                      <p className="text-purple-light text-xl mx-4 leading-normal relative text-right mt-8">"Now i'm able to really know our supporters and establish long-lasting connections"</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="text-white mobile-yellow px-8 mx-auto py-12 text-center relative lg:hidden" style={{}}>
+                  <h3 className="capitalize pt-8">Donor profile</h3>
+                  <p className="mb-4 mt-4 leading-loose text-lg">We make converstions possible between you and your supporters possible.
+                  </p>
+                  <p className="mb-4 mt-4 leading-loose text-lg">Send thank you messages, create tags and notes, and get full insight into giving history. We make it easy for you to really get to know your donors and build lasting relationships.</p>
+                </div>
+            </div>
         )
     }
 
     if(this.state.featuredItem === 'dashboard'){
       return (
-        <div className="flex flex-col flex-1 md:justify-center max-w-3xl mx-auto px-4 py-8 md:p-8 w-full">
+        <div className="flex flex-col flex-1 md:justify-center max-w-3xl mx-auto px-4 py-8 md:p-8 w-full sm:hidden">
           <div className="flex" style={{ marginTop: "-260px"}}>
             <div className="w-1/3 mt-8 shadow-lg rounded-lg bg-white" style={{height: "80%"}}>
               <div className="my-8" style={{ height: "250px"}}>
@@ -112,7 +163,7 @@ class InfoSection extends Component {
 
     if(this.state.featuredItem === 'profile'){
       return (
-        <div className="flex flex-col flex-1 md:justify-center max-w-3xl mx-auto px-4 py-8 md:p-8 w-full">
+        <div className="flex flex-col flex-1 md:justify-center max-w-3xl mx-auto px-4 py-8 md:p-8 w-full sm:hidden">
           <div className="flex" style={{ marginTop: "-260px"}}>
             <div className="w-1/3 mt-8 shadow-lg rounded-lg bg-white" style={{height: "80%"}}>
               <div className="my-8" style={{ height: "250px"}}>
