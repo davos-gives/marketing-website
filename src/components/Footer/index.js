@@ -35,7 +35,7 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className="mt-16 sm:text-center">
+    <div className="mt-16 sm:text-center lg:pb-8 lg:pt-8">
       <div className="flex justify-between items-center max-w-3xl mx-auto p-4 md:p-8 text-sm sm:flex-wrap sm:flex-col">
         <div className="text-white leading-normal w-1/3 sm:w-full sm:px-8 sm:leading-loose">
           <img src={Davos_logo} className="w-32 mt-18 mb-8" />

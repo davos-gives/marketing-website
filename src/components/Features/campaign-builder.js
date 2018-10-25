@@ -108,7 +108,7 @@ class InfoSection extends Component {
 
                 <img src={IllustrationProfile} className="w-48 mt-18 mb-8 relative donor-profile-illustration" style={{ top: `-225px`, left: "55px"}}/>
                     <div className="float-right w-3/4 pull-up">
-                      <p className="text-purple-light text-xl mx-4 leading-normal relative text-right mt-8">"Now i'm able to really know our supporters and establish long-lasting connections"</p>
+                      <p className="text-purple-light text-xl mx-4 leading-normal relative text-right mt-8">"Now I'm able to really know our supporters and establish long-lasting connections"</p>
                     </div>
                   </div>
                 </div>
@@ -168,7 +168,7 @@ class InfoSection extends Component {
             <div className="w-1/3 mt-8 shadow-lg rounded-lg bg-white" style={{height: "80%"}}>
               <div className="my-8" style={{ height: "250px"}}>
                 <img src={IllustrationProfile} className="w-80 mt-18 mb-8 relative donor-profile-illustration" style={{ top: `-200px`, left: "75px"}}/>
-                <p className="text-purple-light text-xl w-2/3 text-center leading-normal mx-auto relative" style={{ top: `-200px`}}>"Now i'm able to really know our supporters and establish long-lasting connections"</p>
+                <p className="text-purple-light text-xl w-2/3 text-center leading-normal mx-auto relative" style={{ top: `-200px`}}>"Now I'm able to really know our supporters and establish long-lasting connections"</p>
               </div>
               <div className="text-white bg-yellow px-12 mx-auto py-12 rounded-b-lg">
               <h3 className="capitalize">Donor profile</h3>
