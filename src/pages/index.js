@@ -5,8 +5,6 @@ import InfoSection from "../components/Features/campaign-builder.js";
 import featuredImage from "../images/girl_with_dog.png";
 import Footer from "../components/Footer";
 
-
-
 const IndexPage = () => (
   <div>
   <div className="pull-up">
