@@ -40,7 +40,7 @@ class InfoSection extends Component {
           <div className="flex" style={{ marginTop: "-260px"}}>
             <div className="w-1/3 mt-8 shadow-lg rounded-lg bg-white" style={{height: "80%"}}>
               <div className="my-8" style={{ height: "250px"}}>
-                <img src={IllustrationBuilder} className="w-80 mt-18 mb-8 relative donor-profile-illustration" style={{ top: `-200px`, left: "75px"}}/>
+                <img src={IllustrationBuilder} className="w-80 mt-18 mb-8 relative donor-profile-illustration" style={{ top: `-200px`, left: "75px"}} />
                 <p className="text-purple-light text-xl w-2/3 text-center leading-normal mx-auto relative" style={{ top: `-200px`}}>"No more countless hours trying to set up a donation form that looks like our website"</p>
               </div>
               <div className="text-white bg-teal px-12 mx-auto py-12 rounded-b-lg">

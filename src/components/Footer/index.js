@@ -18,7 +18,7 @@ const Footer = () => (
       <div className="w-1/3 mx-auto mt-2 pt-2 sm:w-full">
       <p className="text-white text-lg leading-normal sm:text-center sm:px-8">Request early access and get our latest updates and news before anyone else!</p>
 
-      <form name="sign up" method="POST" action="/success" className="pt-6 pb-8 mb-4 sm:px-8 sm:mt-8" data-netlify="true" data-netlify-honeypot="bot-field">
+      <form name="sign up" method="POST" action="/success#submitted" className="pt-6 pb-8 mb-4 sm:px-8 sm:mt-8" data-netlify="true" data-netlify-honeypot="bot-field">
       <input type="hidden" name="bot-field" />
         <div className="mb-4">
           <input className="shadow appearance-none border rounded-full w-full py-2 px-4 text-purple-dark leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Name" name="name"/>

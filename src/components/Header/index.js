@@ -26,7 +26,7 @@ const Header = () => {
             Davos is an easy-to-use online fundraising platform created for small and medium sized charities in Canada.
             <img src={canada_flag} className="w-6 sm:leading-none" style={{ position: `relative`, left: "10px", top: "15px"}} />
           </p>
-          <button className="bg-purple-light text-white font-bold py-3 px-5 rounded-full capitalize mt-4 mb-8 focus:outline-none focus:shadow-outline sm:m-auto sm:block sm:mt-4"><a className="text-white no-underline" href="#features">Learn more</a></button>
+          <button className="bg-purple-light text-white font-bold py-3 px-5 rounded-full capitalize mt-4 mb-8 focus:outline-none focus:shadow-outline sm:m-auto sm:block sm:mt-4"><a className="text-white no-underline" href="#more-info">Learn more</a></button>
         </div>
         <div className='w-4/5 sm:w-full sm:pb-0'>
           <img src={header_illustration} className="relative pin-r pin-b mb-8 pb-8 sm:mb-0 sm:pb-0" />

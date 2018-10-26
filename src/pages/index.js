@@ -23,8 +23,8 @@ const IndexPage = () => (
     </div>
   </div>
   <div className="featured-item sm:mt-8">
-    <div className="text-purple-dark relative sm:text-center sm:mx-auto sm:w-3/4 sm:leading-normal  easy-peasy">
-      <h1 className="text-5xl text-center mb-3 sm:text-xl sm:">It's Easy Peasy</h1>
+    <div className="text-purple-dark relative sm:text-center sm:mx-auto sm:w-3/4 sm:leading-normal easy-peasy">
+      <h1 className="text-5xl text-center mb-3 sm:text-xl sm:" id="more-info">It's Easy Peasy</h1>
       <p className="text-xl text-center">for charities like the Barks & Meows Shelter</p>
     </div>
     <InfoSection />

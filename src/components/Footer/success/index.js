@@ -18,7 +18,7 @@ const Footer = () => (
       <div className="w-1/3 mx-auto pt-12 pt-2 sm:w-full" style={{height: "260px"}}>
       <p className="text-white text-lg leading-normal sm:text-center sm:px-8">Thanks! We'll be reaching out to you when we start contacting organizations for alpha testing.</p>
 
-      <form className="pt-6 pb-8 mb-4 sm:px-8 sm:mt-8">
+      <form className="pt-6 pb-8 mb-4 sm:px-8 sm:mt-8" id="submitted">
       <div className="w-full">
         <button className="w-full rounded-full bg-teal uppercase text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline tracking-wide" type="submit">
           Success!
