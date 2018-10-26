@@ -18,15 +18,16 @@ const Footer = () => (
       <div className="w-1/3 mx-auto mt-2 pt-2 sm:w-full">
       <p className="text-white text-lg leading-normal sm:text-center sm:px-8">Request early access and get our latest updates and news before anyone else!</p>
 
-      <form className="pt-6 pb-8 mb-4 sm:px-8 sm:mt-8">
+      <form name="sign up" method="POST" className="pt-6 pb-8 mb-4 sm:px-8 sm:mt-8" data-netlify="true" data-netlify-honeypot="bot-field">
+      <input type="hidden" name="bot-field" />
         <div className="mb-4">
-          <input className="shadow appearance-none border rounded-full w-full py-2 px-4 text-purple-dark leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Name" />
+          <input className="shadow appearance-none border rounded-full w-full py-2 px-4 text-purple-dark leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Name" name="name"/>
         </div>
         <div className="mb-4">
-          <input className="shadow appearance-none border rounded-full w-full py-2 px-4 text-purple-dark leading-tight focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="Email Address" />
+          <input className="shadow appearance-none border rounded-full w-full py-2 px-4 text-purple-dark leading-tight focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="Email Address" name="email"/>
         </div>
       <div className="w-full">
-        <button className="w-full rounded-full bg-purple-light uppercase text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline tracking-wide" type="button">
+        <button className="w-full rounded-full bg-purple-light uppercase text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline tracking-wide" type="submit">
           Request early access
         </button>
       </div>

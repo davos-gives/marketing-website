@@ -101,6 +101,7 @@
     background-image: url("../images/Fill2.png");
     background-size: 100vw;
     background-position: bottom;
+    background-repeat: no-repeat;
     bottom: -250px;
     position: relative;
   }
