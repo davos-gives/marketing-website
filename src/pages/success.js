@@ -3,7 +3,7 @@ import Link from "gatsby-link";
 import DavosSlogan from "../images/Davos_slogan-red.svg";
 import InfoSection from "../components/Features/campaign-builder.js";
 import featuredImage from "../images/girl_with_dog.png";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/success";
 
 
 

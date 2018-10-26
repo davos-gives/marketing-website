@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 import Davos_logo from "../../images/Davos_logo.svg";
-import header_illustration from "../../images/landing_illustration-02.png";
+import header_illustration from "../../images/Landing_Illustration-02.png";
 import canada_flag from "../../images/maple_leaf.svg";
 
 
