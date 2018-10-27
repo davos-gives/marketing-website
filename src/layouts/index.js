@@ -20,7 +20,6 @@ meta={[
     { property: "og:title", content: "Davos - Give Meaning" },
     { property: "og:description", content: "Davos is an easy-to-use online fundraising platform created for small and medium sized charities in Canada." },
     { property: "og:image", content: `${featured_image}`},
-    { property: "og:image:url", content: `${featured_image}`},
 ]}
 link={[
     { rel: 'shortcut icon', type: 'image/png', href: `${Favicon}` }

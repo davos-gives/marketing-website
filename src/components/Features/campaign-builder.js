@@ -113,7 +113,7 @@ class InfoSection extends Component {
                 </div>
                 <div className="text-white mobile-yellow px-8 mx-auto py-12 text-center relative lg:hidden md:hidden" style={{}}>
                   <h3 className="capitalize pt-8">Donor profile</h3>
-                  <p className="mb-4 mt-4 leading-loose text-lg">We make converstions possible between you and your supporters possible.
+                  <p className="mb-4 mt-4 leading-loose text-lg">We make conversations possible between you and your supporters.
                   </p>
                   <p className="mb-4 mt-4 leading-loose text-lg">Send thank you messages, create tags and notes, and get full insight into giving history. We make it easy for you to really get to know your donors and build lasting relationships.</p>
                 </div>
@@ -172,7 +172,7 @@ class InfoSection extends Component {
               </div>
               <div className="text-white bg-yellow px-12 mx-auto py-12 rounded-b-lg md:-mt-12">
               <h3 className="capitalize">Donor profile</h3>
-              <p className="mb-4 mt-4 leading-loose text-lg">We make converstions possible between you and your supporters possible.
+              <p className="mb-4 mt-4 leading-loose text-lg">We make conversations possible between you and your supporters.
               </p>
               <p className="mb-4 mt-4 leading-loose text-lg">Send thank you messages, create tags and notes, and get full insight into giving history. We make it easy for you to really get to know your donors and build lasting relationships.</p>
               </div>

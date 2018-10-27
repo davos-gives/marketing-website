@@ -6303,7 +6303,7 @@ table {
 
 @media (max-width: 767px) and (min-width: 0px) {
   .bg-purple-image {
-    background-image: url("../images/header_background.png");
+    background-image: url("../images/header_background-sm.png");
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: bottom;

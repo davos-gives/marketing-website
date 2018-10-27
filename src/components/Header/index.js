@@ -23,7 +23,7 @@ const Header = () => {
             the new standard<br/> in online fundraising
           </h1>
           <p className="leading-normal text-lg mb-8 sm:text-center sm:m-auto sm:w-64 sm:leading-loose md:w-2/3 md:leading-loose">
-            Davos is an easy-to-use online fundraising platform created for small and medium sized charities in Canada.
+            Davos is an easy-to-use online fundraising platform created for small and medium-sized charities in Canada.
             <img src={canada_flag} className="w-6 sm:leading-none" style={{ position: `relative`, left: "10px", top: "15px"}} />
           </p>
           <button className="bg-purple-light text-white font-bold py-3 px-5 rounded-full capitalize mt-4 mb-8 focus:outline-none focus:shadow-outline sm:m-auto sm:block sm:mt-4"><a className="text-white no-underline" href="#more-info">Learn more</a></button>
