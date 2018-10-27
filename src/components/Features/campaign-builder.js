@@ -127,7 +127,7 @@ class InfoSection extends Component {
           <div className="flex featured-box" style={{ marginTop: "-260px"}}>
             <div className="w-1/3 mt-8 shadow-lg rounded-lg bg-white md:w-3/5" style={{height: "80%"}}>
               <div className="my-8" style={{ height: "250px"}}>
-                <img src={IllustrationDashboard} className="w-80 mt-18 mb-8 relative donor-profile-illustration md:w-64 md:-ml-12" style={{ top: `-200px`, left: "33%"}}/>
+                <img src={IllustrationDashboard} className="w-80 mt-18 mb-8 relative donor-profile-illustration md:w-64 md:mx-auto" style={{ top: `-200px`, left: "70px"}}/>
                 <p className="text-purple-light text-xl w-2/3 text-center leading-normal mx-auto relative" style={{ top: `-200px`}}>"The beauty of it is that's all in one place!"</p>
               </div>
               <div className="text-white bg-orange px-12 mx-auto py-12 rounded-b-lg md:-mt-12">
@@ -167,7 +167,7 @@ class InfoSection extends Component {
           <div className="flex featured-box" style={{ marginTop: "-260px"}}>
             <div className="w-1/3 mt-8 shadow-lg rounded-lg bg-white md:w-3/5" style={{height: "80%"}}>
               <div className="my-8" style={{ height: "250px"}}>
-                <img src={IllustrationProfile} className="w-80 mt-18 mb-8 relative donor-profile-illustration md:w-64" style={{ top: `-200px`, left: "25%"}}/>
+                <img src={IllustrationProfile} className="w-80 mt-18 mb-8 relative donor-profile-illustration md:w-64" style={{ top: `-200px`, left: "80px"}}/>
                 <p className="text-purple-light text-xl w-2/3 text-center leading-normal mx-auto relative" style={{ top: `-200px`}}>"Now I'm able to really know our supporters and establish long-lasting connections"</p>
               </div>
               <div className="text-white bg-yellow px-12 mx-auto py-12 rounded-b-lg md:-mt-12">
