@@ -6373,12 +6373,12 @@ table {
   }
 
   .donor-profile-laptop {
-    max-width: 500px !important;
+    max-width: 1000px !important;
     height: 350px !important;
   }
 
   .stats-2 {
-    max-width: 350px !important;
+    max-width: 1000px !important;
     height: 200px !important;
     top: 290px !important;
     left: 30px !important;
