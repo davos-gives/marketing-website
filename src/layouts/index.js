@@ -6,7 +6,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "./index.css";
 import Favicon from "../images/davos_favicon.png";
-import featured_image from "../images/Landing_Illustration-02.png";
+import featured_image from "../images/davos_share.png";
 
 
 const TemplateWrapper = ({ children }) => (
