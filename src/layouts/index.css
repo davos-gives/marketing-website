@@ -641,9 +641,9 @@ table {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1367px) {
   .container {
-    max-width: 992px;
+    max-width: 1367px;
   }
 }
 
@@ -3052,7 +3052,7 @@ table {
 }
 
 .font-sans {
-  font-family: Open-sans, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Open sans, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 .font-serif {
@@ -6282,6 +6282,12 @@ table {
   * @import "utilities/skew-transforms";
   */
 
+.bg-purple-footer-image {
+  background-image: url("../images/Fill3.png");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
 @media (max-width: 767px) and (min-width: 0px) {
   .human-picture {
     top: 0px !important;
@@ -6292,7 +6298,7 @@ table {
 .bg-purple-image {
   background-image: url("../images/header_background.png");
   background-repeat: no-repeat !important;
-  background-size: 100vw !important;
+  background-size: cover !important;
 }
 
 @media (max-width: 767px) and (min-width: 0px) {
@@ -6303,12 +6309,97 @@ table {
     background-position: bottom;
     height: 1000px;
   }
+
+  .footer {
+    padding-top: 120px !important;
+  }
+
+  .footer-padded {
+    padding-top: 40px;
+    padding-bottom: 200px;
+    position: relative;
+    bottom: -250px;
+    margin-top: -280px;
+    z-index: 10;
+  }
+
+  .footer-padded.submitted {
+    margin-top: -400px;
+    bottom: -200px;
+  }
 }
 
-.bg-purple-footer-image {
-  background-image: url("../images/Fill3.png");
-  background-repeat: no-repeat !important;
-  background-size: 100vw !important;
+@media (max-width: 320px) {
+  .mobile-yellow {
+    margin-top: 30px;
+  }
+
+  .footer-padded {
+    margin-top: -220px !important;
+  }
+
+  .footer-padded.submitted {
+    margin-top: -150px !important;
+    bottom: -200px;
+  }
+}
+
+@media (max-width: 1366px) and (min-width: 768px) {
+  .bg-purple-image {
+    background-image: url("../images/header_background.png");
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: bottom;
+    height: 1300px;
+  }
+
+  .give-meaning {
+    top: -300px !important;
+    position: relative !important;
+  }
+
+  .featured-item {
+    background: none !important;
+    bottom: 0px !important;
+    background-image: none !important;
+  }
+
+  .easy-peasy {
+    top: -250px;
+  }
+
+  .featured-box {
+    margin-top: -120px !important;
+  }
+
+  .donor-profile-laptop {
+    max-width: 500px !important;
+    height: 350px !important;
+  }
+
+  .stats-2 {
+    max-width: 350px !important;
+    height: 200px !important;
+    top: 290px !important;
+    left: 30px !important;
+    z-index: 10;
+  }
+
+  .bg-purple-footer-image {
+    background-size: cover !important;
+  }
+
+  .footer-padded {
+    padding-top: 20px;
+    padding-bottom: 200px;
+    position: relative;
+    bottom: -250px;
+    margin-top: -350px;
+  }
+
+  .footer {
+    padding-top: 200px !important;
+  }
 }
 
 @media (max-width: 767px) and (min-width: 0px) {
@@ -6319,16 +6410,17 @@ table {
 
 .featured-item {
   background-image: url("../images/Fill2.png");
-  background-size: 100vw;
+  background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-  bottom: -250px;
+  bottom: -420px;
   position: relative;
+  z-index: 20;
 }
 
 @media (max-width: 767px) and (min-width: 0px) {
   .featured-item {
-    background-color: #fff;
+    background-color: none !important;
     bottom: 0px;
     background-image: none;
   }
@@ -6336,6 +6428,7 @@ table {
   .pull-up {
     top: -290px !important;
     position: relative !important;
+    z-index: 0;
   }
 
   .static-height-desktop {
@@ -6361,7 +6454,7 @@ table {
   height: 550px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1366px) {
   .easy-peasy {
     position: relative;
     top: -350px;
@@ -6374,6 +6467,13 @@ table {
 
   .footer-padded {
     padding-top: 250px;
+    padding-bottom: 150px;
+    position: relative;
+    bottom: -210px;
+  }
+
+  .footer {
+    padding-top: 200px !important;
   }
 }
 
@@ -8750,7 +8850,7 @@ table {
   }
 
   .sm\:font-sans {
-    font-family: Open-sans, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Open sans, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .sm\:font-serif {
@@ -11950,7 +12050,7 @@ table {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1366px) {
   .md\:list-reset {
     list-style: none;
     padding: 0;
@@ -14323,7 +14423,7 @@ table {
   }
 
   .md\:font-sans {
-    font-family: Open-sans, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Open sans, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .md\:font-serif {
@@ -17523,7 +17623,7 @@ table {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1367px) {
   .lg\:list-reset {
     list-style: none;
     padding: 0;
@@ -19896,7 +19996,7 @@ table {
   }
 
   .lg\:font-sans {
-    font-family: Open-sans, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Open sans, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .lg\:font-serif {

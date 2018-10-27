@@ -18,7 +18,7 @@ module.exports = {
        // Enables Google Optimize using your container Id
        // Any additional create only fields (optional)
 
-     },
+     }
    },
   ],
 };

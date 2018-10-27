@@ -170,8 +170,8 @@ module.exports = {
 
   screens: {
     'sm': {'min': '0px', 'max': '767px'},
-    'md': {'min': '768px', 'max': '991px'},
-    'lg': {'min': '992px'},
+    'md': {'min': '768px', 'max': '1366px'},
+    'lg': {'min': '1367px'},
 
   },
 
@@ -196,7 +196,7 @@ module.exports = {
 
   fonts: {
     'sans': [
-      'Open-sans',
+      'Open sans',
       'BlinkMacSystemFont',
       '-apple-system',
       'Segoe UI',
