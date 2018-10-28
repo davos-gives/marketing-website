@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import Link from "gatsby-link";
+import ReactSwipe from 'react-swipe';
+import Carousel from './carousel';
+
 import Davos_logo from "../../images/Davos_logo.svg";
 import Davos_slogan from "../../images/Davos_slogan.svg";
 import Facebook from "../../images/facebook.png";
@@ -36,38 +39,40 @@ class InfoSection extends Component {
     if(this.state.featuredItem === 'design'){
       return (
         <div className="static-height-desktop">
-        <div className="flex flex-col flex-1 md:justify-center max-w-3xl mx-auto px-4 py-8 md:p-8 w-full sm:hidden">
-          <div className="flex featured-box" style={{ marginTop: "-260px"}}>
-            <div className="w-1/3 mt-8 shadow-lg rounded-lg bg-white md:w-3/5" style={{height: "80%"}}>
-              <div className="my-8" style={{ height: "250px"}}>
-                <img src={IllustrationBuilder} className="w-80 mt-18 mb-8 relative donor-profile-illustration md:w-64" style={{ top: `-200px`, left: "25%"}} />
-                <p className="text-purple-light text-xl w-2/3 text-center leading-normal mx-auto relative" style={{ top: `-200px`}}>"No more countless hours trying to set up a donation form that looks like our website"</p>
-              </div>
-              <div className="text-white bg-teal px-12 mx-auto py-12 rounded-b-lg md:-mt-12">
-              <h3 className="capitalize">Donation campaign builder</h3>
-              <p className="mb-4 mt-4 leading-loose text-lg">Quickly design your campaign using our modern templates. Decide on the fonts, colour, images, content and gift ranges that best suit your needs.
-              </p>
-              <p className="mb-4 mt-4 leading-loose text-lg">Want to personalize even further or create your own template? You are always in control with our advanced settings.</p>
-              </div>
-            </div>
-
-            <div className="w-2/3 md:w-2/5">
-              <img src={laptop} className="mt-18 mb-8 relative donor-profile-laptop md:mt-12 md:-ml-12" style={{ top: `-40px`, height: "550px", maxWidth: "1000px", left: "-40px"}}/>
-
-              <div className="flex content-between self-start relative mx-16 md:mt-8" style={{top: "-100px" }}>
-                <div className="flex flex-wrap flex-auto self-center">
-                  <span className="rounded-full inline-block h-3 w-3 items-center mx-1 bg-teal"></span>
-                  <span className="rounded-full inline-block h-3 w-3 items-center mx-1 bg-grey" onClick={() => this.updateState("dashboard")}></span>
-                  <span className="rounded-full inline-block h-3 w-3 items-center mx-1 bg-grey" onClick={() => this.updateState("profile")}></span>
+          <div className="flex flex-col flex-1 md:justify-center max-w-3xl mx-auto px-4 py-8 md:p-8 w-full sm:hidden md:hidden">
+            <div className="flex featured-box" style={{ marginTop: "-260px"}}>
+              <div className="w-1/3 mt-8 shadow-lg rounded-lg bg-white md:w-3/5" style={{height: "80%"}}>
+                <div className="my-8" style={{ height: "250px"}}>
+                  <img src={IllustrationBuilder} className="w-80 mt-18 mb-8 relative donor-profile-illustration md:w-64" style={{ top: `-200px`, left: "25%"}} />
+                  <p className="text-purple-light text-xl w-2/3 text-center leading-normal mx-auto relative" style={{ top: `-200px`}}>"No more countless hours trying to set up a donation form that looks like our website"</p>
                 </div>
-                <div className="w-64 md:hidden">
-                  <button className="flex-none w-2/3 ml-16 text-purple border border-purple text font-bold py-2 px-8 rounded-full capitalize mt-8 mb-4 focus:outline-none focus:shadow-outline float-right" onClick={() => this.updateState("dashboard")}>Next</button>
-                  <p className="text-purple font-bold text-right w-full leading-loose">Understand how your <br/> campaigns are performing</p>
+                <div className="text-white bg-teal px-12 mx-auto py-12 rounded-b-lg md:-mt-12">
+                <h3 className="capitalize">Donation campaign builder</h3>
+                <p className="mb-4 mt-4 leading-loose text-lg">Quickly design your campaign using our modern templates. Decide on the fonts, colour, images, content and gift ranges that best suit your needs.
+                </p>
+                <p className="mb-4 mt-4 leading-loose text-lg">Want to personalize even further or create your own template? You are always in control with our advanced settings.</p>
                 </div>
               </div>
-            </div>
+
+              <div className="w-2/3 md:w-2/5">
+                <img src={laptop} className="mt-18 mb-8 relative donor-profile-laptop md:mt-12 md:-ml-12" style={{ top: `-40px`, height: "550px", maxWidth: "1000px", left: "-40px"}}/>
+
+                <div className="flex content-between self-start relative mx-16 md:mt-8" style={{top: "-100px" }}>
+                  <div className="flex flex-wrap flex-auto self-center">
+                    <span className="rounded-full inline-block h-3 w-3 items-center mx-1 bg-teal"></span>
+                    <span className="rounded-full inline-block h-3 w-3 items-center mx-1 bg-grey" onClick={() => this.updateState("dashboard")}></span>
+                    <span className="rounded-full inline-block h-3 w-3 items-center mx-1 bg-grey" onClick={() => this.updateState("profile")}></span>
+                  </div>
+                  <div className="w-64 md:hidden">
+                    <button className="flex-none w-2/3 ml-16 text-purple border border-purple text font-bold py-2 px-8 rounded-full capitalize mt-8 mb-4 focus:outline-none focus:shadow-outline float-right" onClick={() => this.updateState("dashboard")}>Next</button>
+                    <p className="text-purple font-bold text-right w-full leading-loose">Understand how your <br/> campaigns are performing</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+
+          <Carousel />
 
           <div className="flex flex-col flex-1 md:justify-center mx-auto px-4 py-8 md:p-8 w-full lg:hidden md:hidden mt-8">
             <div className="lg:hidden md:hidden">

@@ -9,7 +9,10 @@
     "gatsby-plugin-favicon": "^3.1.4",
     "gatsby-plugin-google-analytics": "^2.0.6",
     "gatsby-plugin-react-helmet": "^2.0.8",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-swipe": "^5.1.1",
+    "react-swipeable": "^4.3.0",
+    "swipe-js-iso": "^2.0.4"
   },
   "keywords": [
     "gatsby",
