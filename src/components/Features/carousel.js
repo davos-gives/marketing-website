@@ -51,7 +51,7 @@ class Carousel extends Component {
 
     if(this.state.featuredItem === 'design'){
       return (
-        <Swipeable onSwipedRight={this.setDashboard}>
+        <Swipeable onSwipedRight={this.setProfile} onSwipedLeft={this.setDashboard}>
             <div className="flex flex-col flex-1 md:justify-center max-w-3xl mx-auto px-4 py-8 md:p-8 w-full sm:hidden lg:hidden">
               <div className="flex featured-box" style={{ marginTop: "-260px"}}>
                 <div className="w-1/3 mt-8 shadow-lg rounded-lg bg-white md:w-3/5" style={{height: "80%"}}>
@@ -87,7 +87,7 @@ class Carousel extends Component {
 
     if(this.state.featuredItem === 'dashboard'){
       return (
-        <Swipeable onSwipedLeft={this.setDesign} onSwipedRight={this.setProfile}>
+        <Swipeable onSwipedRight={this.setDesign} onSwipedLeft={this.setProfile}>
           <div className="flex flex-col flex-1 md:justify-center max-w-3xl mx-auto px-4 py-8 md:p-8 w-full sm:hidden lg:hidden" style={{position: "relative", zIndex: "50"}}>
             <div className="flex featured-box" style={{ marginTop: "-260px"}}>
               <div className="w-1/3 mt-8 shadow-lg rounded-lg bg-white md:w-3/5" style={{height: "80%"}}>
@@ -125,7 +125,7 @@ class Carousel extends Component {
 
     if(this.state.featuredItem === 'profile'){
       return (
-        <Swipeable onSwipedLeft={this.setDashboard}>
+        <Swipeable onSwipedRight={this.setDashboard} onSwipedLeft={this.setDesign}>
         <div className="flex flex-col flex-1 md:justify-center max-w-3xl mx-auto px-4 py-8 md:p-8 w-full sm:hidden">
           <div className="flex featured-box" style={{ marginTop: "-260px"}}>
             <div className="w-1/3 mt-8 shadow-lg rounded-lg bg-white md:w-3/5" style={{height: "80%"}}>
