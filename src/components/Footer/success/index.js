@@ -43,9 +43,9 @@ const Footer = () => (
           Contact Us! <a className="text-white no-underline font-bold" href="mailto:info@davos.gives">info@davos.gives</a>
         </p>
         <div className="flex flex-wrap flex-1 sm:justify-center sm:mb-8 md:justify-end">
-          <div className="bg-white text-white rounded-full h-8 w-8 flex items-center justify-center mr-3"><img src={Facebook} className="w-4"/></div>
-          <div className="bg-white text-white rounded-full h-8 w-8 flex items-center justify-center mr-3"><img src={Twitter} className="w-4" /></div>
-          <div className="bg-white text-white rounded-full h-8 w-8 flex items-center justify-center"><img src={Instagram} className="w-4" /></div>
+          <div className="bg-white text-white rounded-full h-8 w-8 flex items-center justify-center mr-3"><a href="https://www.facebook.com/davos.gives/"><img src={Facebook} className="w-4"/></a></div>
+          <div className="bg-white text-white rounded-full h-8 w-8 flex items-center justify-center mr-3"><a href="https://twitter.com/Davos_Gives"><img src={Twitter} className="w-4" /></a></div>
+          <div className="bg-white text-white rounded-full h-8 w-8 flex items-center justify-center"><a href="https://www.instagram.com/davos.gives/"><img src={Instagram} className="w-4" /></a></div>
         </div>
         </div>
       </div>

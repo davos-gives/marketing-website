@@ -102,7 +102,7 @@ class InfoSection extends Component {
               </div>
               <div className="text-white mobile-orange px-8 mx-auto py-12 text-center relative lg:hidden md:hidden" style={{}}>
                 <h3 className="capitalize mt-8">Charity Dashboard</h3>
-                <p className="mb-4 mt-4 leading-loose text-lg">Get a clear understanding of how your campaigns perform and why they do so. Your dashboard is a quick snapshot of your total Funds raised and where the support is coming from - filterable by year or month.
+                <p className="mb-4 mt-4 leading-loose text-lg">Get a clear understanding of how and why your campaigns are performing. Your dashboard is a quick snapshot of your total Funds raised and where the support is coming from.
                 </p>
                 <p className="mb-4 mt-4 leading-loose text-lg pb-8">All in one place. Straightforward and updated in real time.</p>
               </div>
@@ -112,7 +112,7 @@ class InfoSection extends Component {
 
                 <img src={IllustrationProfile} className="w-48 mt-18 mb-8 relative donor-profile-illustration" style={{ top: `-225px`, left: "55px"}}/>
                     <div className="float-right w-3/4 pull-up">
-                      <p className="text-purple-light text-xl mx-4 leading-normal relative text-right mt-8">"Now I'm able to really know our supporters and establish long-lasting connections"</p>
+                      <p className="text-purple-light text-xl mx-4 leading-normal relative text-right mt-8">"Now I'm able to really understand our supporters and establish long-lasting connections"</p>
                     </div>
                   </div>
                 </div>
@@ -137,7 +137,7 @@ class InfoSection extends Component {
               </div>
               <div className="text-white bg-orange px-12 mx-auto py-12 rounded-b-lg md:-mt-12">
               <h3 className="capitalize">Charity Dashboard</h3>
-              <p className="mb-4 mt-4 leading-loose text-lg">Get a clear understanding of how your campaigns perform and why they do so. Your dashboard is a quick snapshot of your total Funds raised and where the support is coming from - filterable by year or month.
+              <p className="mb-4 mt-4 leading-loose text-lg">Get a clear understanding of how and why your campaigns are performing. Your dashboard is a quick snapshot of your total Funds raised and where the support is coming from.
               </p>
               <p className="mb-4 mt-4 leading-loose text-lg">All in one place. Straightforward and updated in real time.</p>
               </div>
@@ -173,7 +173,7 @@ class InfoSection extends Component {
             <div className="w-1/3 mt-8 shadow-lg rounded-lg bg-white md:w-3/5" style={{height: "80%"}}>
               <div className="my-8" style={{ height: "250px"}}>
                 <img src={IllustrationProfile} className="w-80 mt-18 mb-8 relative donor-profile-illustration md:w-64" style={{ top: `-200px`, left: "80px"}}/>
-                <p className="text-purple-light text-xl w-2/3 text-center leading-normal mx-auto relative" style={{ top: `-200px`}}>"Now I'm able to really know our supporters and establish long-lasting connections"</p>
+                <p className="text-purple-light text-xl w-2/3 text-center leading-normal mx-auto relative" style={{ top: `-200px`}}>"Now I'm able to really understand our supporters and establish long-lasting connections"</p>
               </div>
               <div className="text-white bg-yellow px-12 mx-auto py-12 rounded-b-lg md:-mt-12">
               <h3 className="capitalize">Donor profile</h3>
