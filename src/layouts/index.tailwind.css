@@ -103,7 +103,6 @@
     }
 
     .footer-padded.submitted {
-      margin-top: -400px;
       bottom: -200px;
     }
   }
