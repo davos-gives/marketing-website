@@ -42,10 +42,10 @@ const Footer = () => (
         <div className="text-white leading-normal w-1/3 sm:w-full sm:leading-loose md:w-1/2 md:ml-8 sm:pb-8">
           <img src={canada_flag_red} className="w-6 mb-4"/>
           <p className="leading-loose w-4/5 sm:w-full">A proudly Canadian Startup currently working with SFU's Coast Capital Savings Venture Connection.</p>
-          <a href="http://www.sfu.ca/io/venture/venture-connection.html"><img src={VC} className="w-4/5"/></a>
+          <a href="http://www.sfu.ca/io/venture/venture-connection.html" target="_blank"><img src={VC} className="w-4/5"/></a>
 
         </div>
-        <div className="pb-8 ">
+        <div className="pb-8">
           <div className="flex items-center mb-6">
             <img src={Davos_logo} className="w-48 mr-8 md:w-32" />
             <img src={Davos_slogan} className="w-1/3"/>
@@ -55,9 +55,9 @@ const Footer = () => (
               Contact Us! <a className="text-white no-underline font-bold" href="mailto:info@davos.gives">info@davos.gives</a>
             </p>
             <div className="flex flex-wrap flex-1 sm:justify-center sm:mb-8 md:justify-end">
-              <div className="bg-white text-white rounded-full h-8 w-8 flex items-center justify-center mr-3"><a href="https://www.facebook.com/davos.gives/"><img src={Facebook} className="w-4 pt-1"/></a></div>
-              <div className="bg-white text-white rounded-full h-8 w-8 flex items-center justify-center mr-3"><a href="https://twitter.com/Davos_Gives"><img src={Twitter} className="w-4 pt-1" /></a></div>
-              <div className="bg-white text-white rounded-full h-8 w-8 flex items-center justify-center"><a href="https://www.instagram.com/davos.gives/"><img src={Instagram} className="w-4 pt-1" /></a></div>
+              <div className="bg-white text-white rounded-full h-8 w-8 flex items-center justify-center mr-3"><a href="https://www.facebook.com/davos.gives/" target="_blank"><img src={Facebook} className="w-4 pt-1"/></a></div>
+              <div className="bg-white text-white rounded-full h-8 w-8 flex items-center justify-center mr-3"><a href="https://twitter.com/Davos_Gives" target="_blank"><img src={Twitter} className="w-4 pt-1" /></a></div>
+              <div className="bg-white text-white rounded-full h-8 w-8 flex items-center justify-center"><a href="https://www.instagram.com/davos.gives/" target="_blank"><img src={Instagram} className="w-4 pt-1" /></a></div>
             </div>
           </div>
         </div>
