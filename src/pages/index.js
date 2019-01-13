@@ -14,7 +14,7 @@ const IndexPage = () => (
         <h1 className="sm:m-auto sm:text-center md:text-center">We're here to</h1>
         <img src={DavosSlogan} className="w-64 sm:w-48 mt-3 mb-8 ml-1 sm:m-auto sm:mb-0 sm:mt-2 md:mx-auto" />
         <p className="mb-4 leading-normal mt-8 text-lg sm:text-left md:text-left">We believe online fundraising should be a walk in the park, where charities and donors can build lasting relationships.</p>
-        <p className="mb leading-normal text-lg sm:text-left sm:mb-8 md:text-left"><span className="text-purple">Davos</span> empowers you to keep on giving meaning. Expand your audience online and fuel the work that tranforms your community.
+        <p className="mb leading-normal text-lg sm:text-left sm:mb-8 md:text-left"><span className="text-purple">Davos</span> empowers you to keep on giving meaning. Expand your audience online and fuel the work that transforms your community.
         </p>
       </div>
       <div className="w-2/3 sm:w-full md:mx-auto">
